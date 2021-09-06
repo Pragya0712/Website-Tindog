@@ -1,0 +1,170 @@
+body{
+    font-family: 'Montserrat', sans-serif ;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 900;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+/* Containers */
+.container-fluid{
+    padding: 5% 15%;
+} 
+
+/* Sections */
+.colored-section{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section{
+    background-color: #fff;
+}
+
+/* Headings */
+.title-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+
+}
+
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Navigation Bar */
+.navbar{
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand{
+    font-size: 2.5rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Download Buttons */
+.download-btn{
+    margin: 2% 3% 5% 0;
+}
+
+/* Title Section */
+#title .container-fluid{
+    padding: 4% 15% 8%;
+    text-align: left;
+}
+
+.title-img {
+    width: 18%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
+}
+
+/* Features */
+#features{
+    position: relative;
+    z-index: 1; 
+    /* even if we remove line76 it will be same since features section is below the img */
+}
+
+.feature-title{
+    font-size: 1.5rem;
+}
+
+.feature-icon{
+    color: #ef8172;
+    margin: 30% auto 1rem; 
+}
+
+.feature-icon:hover{
+    color: #ff4c68;
+}
+
+/* Testimonial */
+#testimonials{
+    background-color: #ef8172 ;
+}
+
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* Press */
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+
+}
+
+.press-logo{
+    width: 15%;
+    margin: 15px 15px 40px;
+}
+
+/* Pricing */
+#pricing{
+    padding: 100px;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+.price-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.no-show{
+    visibility: hidden;
+}
+
+/* Call to action */
+.cta-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Footer */
+
+.icon{
+    margin: 2% 1% 2%;
+}
+
+@media (max-width: 1000px){
+    #title .container-fluid{
+        text-align: center;
+    }
+
+    .title-img{
+        position: static;
+        transform: rotate(0);
+        width: 40%;
+    }
+}
+
